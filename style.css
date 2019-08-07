@@ -1,0 +1,237 @@
+/*
+--------------------- colors used -----------------------
+
+BEIGE: #A49A87
+SHERBERT: #FFAA5B
+LIGHT PLUM: #644D52
+TANGELO: #F77A52
+PLUM: #332532
+
+first completed webpage!!!!!
+*/
+
+
+html {
+     background-color: white;
+}
+
+body {
+    background-color: #A49A87;
+    margin: 0 auto;
+    width: 960px;
+    font-family: arial, helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+/*        color: #FF974F; orange sherbert*/
+    color:  #644D52;
+}
+
+
+/*////////////////////HEADER///////////////////////////*/
+
+header {
+    height: 150px;
+    padding-top: 20px; 
+}
+
+ul {
+        padding: 0;
+    }
+
+li {
+    display: inline;
+    padding: 6px;
+    font-size: 16px;
+}
+
+header li:first-child {
+    border-right: 1px solid #332532;
+    height: 50%;
+}
+
+.leftnav {
+    width: 320px;
+    float: left;
+}
+
+.leftnav ul {
+    padding-left: 30px;
+    padding-top: 110px;
+}
+.rightnav {
+    width: 320px;
+    float: right;
+}
+
+.rightnav ul {
+    float: right;
+    padding-right: 30px;
+    padding-top: 110px;
+}
+
+#logo {
+    width: 320px;
+    float: left;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    color: #332532;
+    margin-top: -08px;
+    font-size: 34px;
+    
+}
+
+#logo p {
+    margin: -20px;
+    padding: 0;
+}
+/*///////////////////////CONTENT//////////////////////*/
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+#main {
+    background-image: url('images/412dishes.jpg');
+    height: 438px;
+    border-bottom: 12px #644D52 solid;
+}
+
+#main p {
+    margin: 0;
+    padding-top: 45px;
+    color: #FFAA5B;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+#sign p {
+    margin: 0;
+    padding-top: 10px;
+    color: #F77A52;
+    text-align: center;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: -15px;
+}
+
+form {
+    padding-top: 30px;
+    text-align: center;
+    
+}
+#email {
+    width: 200px;
+    height: 15px;
+    border-radius: 2px;
+    padding: 0;
+    margin-right: 5px;
+}
+# click {
+    height: 25px;
+    border-radius: 2px;
+}
+
+.box {
+    position: relative;
+    float: left;
+    margin: 0;
+/*     border-bottom: 320px #ded7c5 solid;*/
+   }
+
+.box img {
+    display: block;
+    max-width: 320px;
+    max-height: 320px;
+    position: relative;
+    z-index: 1;
+    border-bottom: 16px #644D52 solid;
+   
+}
+
+.box p {
+    position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 2px 0;
+/*        width: 50%;
+    padding: 2px 15px;
+    border-radius: 2px;*/
+    top: 25px;
+    z-index: 2;
+    text-align: center;
+    font-size: 18px;
+/*    margin-left: 15px;*/
+    color: #fff;
+}
+
+.box p {
+/*  background-color: rgba(51, 37, 50, 0.5);    plum*/
+    /*background-color: rgba(164, 154, 135, 0.5);   beige*/
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+
+
+/*///////////////////FOOTER//////////////////*/
+
+nav {
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 0px 8px;
+    
+}
+
+footer li {
+    border-right: 1px solid #332532;
+    line-height: 10px;
+}
+
+footer li:last-child {
+    border-right: none;
+}
+
+footer img {
+    display: block;
+    margin: 0 auto;
+    max-width: 105px;
+    margin-top: 350px;
+    padding: 20px;
+   
+}
+
+footer p {
+    text-align: center;
+    color: #644D52;
+    font-size: 12px;
+    padding: 5px;
+   
+    
+}
