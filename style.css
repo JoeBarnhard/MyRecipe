@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    background-color: #A49A87;
+    background-color: #8D9440;
     margin: 0 auto;
     width: 960px;
     font-family: arial, helvetica, sans-serif;
@@ -24,7 +24,8 @@ body {
 a{
     text-decoration: none;
 /*        color: #FF974F; orange sherbert*/
-    color:  #644D52;
+    color:  #F3E779;
+    
 }
 
 
@@ -75,9 +76,9 @@ header li:first-child {
     float: left;
     text-align: center;
     font-family: 'Bree Serif', serif;
-    color: #332532;
+    color: #fff;
     margin-top: -08px;
-    font-size: 34px;
+    font-size: 38px;
     
 }
 
@@ -117,7 +118,7 @@ header li:first-child {
 #main {
     background-image: url('images/412dishes.jpg');
     height: 438px;
-    border-bottom: 12px #644D52 solid;
+    border-bottom: 12px #755139 solid;
 }
 
 #main p {
@@ -127,16 +128,16 @@ header li:first-child {
     text-align: center;
     font-family: 'Bree Serif', serif;
     letter-spacing: 1px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #sign p {
     margin: 0;
     padding-top: 10px;
-    color: #F77A52;
+    color: #Fe840e;
     text-align: center;
     font-family: arial, helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: -15px;
 }
 
@@ -146,15 +147,24 @@ form {
     
 }
 #email {
-    width: 200px;
-    height: 15px;
-    border-radius: 2px;
-    padding: 0;
+    /* display:flex;
+    align-items:center; */
+    width: 220px;
+    height: 16px;
+    /* border-radius: 2px; */
+    padding: 3px;
     margin-right: 5px;
+    border-style:none;
+    
 }
-# click {
+#click {
+    /* display:flex;
+    align-items:center; */
     height: 25px;
-    border-radius: 2px;
+    /* border-radius: 2px; */
+    color: #fff;
+    background-color:#755139;
+    border-style:none;
 }
 
 .box {
@@ -170,8 +180,7 @@ form {
     max-height: 320px;
     position: relative;
     z-index: 1;
-    border-bottom: 16px #644D52 solid;
-   
+    border-bottom: 16px #755139 solid; 
 }
 
 .box p {
@@ -207,7 +216,7 @@ nav {
 }
 
 footer li {
-    border-right: 1px solid #332532;
+    border-right: 1px solid #755139;
     line-height: 10px;
 }
 
@@ -221,14 +230,16 @@ footer img {
     max-width: 105px;
     margin-top: 80px;
     padding: 20px;
+    color: #755139;
    
 }
 
 footer p {
     text-align: center;
-    color: #644D52;
+    color: #f3e779;
     font-size: 12px;
     padding: 5px;
+    
    
     
 }
